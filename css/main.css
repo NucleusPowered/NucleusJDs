@@ -1,0 +1,500 @@
+pre.highlight {
+    border: 1px solid #dee2e6 !important;
+    padding: 3px;
+    background-color: #f5f5f5;
+}
+
+.red {
+    color: darkred;
+}
+
+.green {
+    color: darkgreen;
+}
+
+.navbar-qs {
+    background-color: #212121;
+    line-height: 32px;
+}
+
+.navbar-qs a, .navbar-qs a:active, .navbar-qs a:hover {
+    color: #dfdfdf;
+}
+
+h2 {
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: 1px solid #c9c9c9;
+    padding-bottom: 10px;
+}
+
+h2.notopmargin {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.how-to {
+    margin-top: 10px;
+}
+
+.how-to h2 {
+    border: 0;
+    padding-top: 10px;
+}
+
+blockquote {
+    border-left: #aaaaaa 3px solid;
+    padding-left: 10px;
+    color: #707070;
+}
+
+/*
+padding: 1.25rem;
+
+margin-top: 1.25rem;
+
+margin-bottom: 1.25rem;
+
+border: 1px solid #eee;
+
+border-left-color: rgb(238, 238, 238);
+border-left-width: 1px;
+
+border-left-width: .25rem;
+
+border-radius: .25rem;
+*/
+
+blockquote.bl {
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 32px;
+    color: #000000;
+    padding: 10px 10px 0 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-left: 0;
+}
+
+blockquote.bl.warn {
+    background-image: url("../img/exclamation-triangle-fill.svg");
+    background-color: #fff9d7;
+    border-left: #ffdd00 3px solid;
+}
+
+blockquote.bl.error {
+    background-image: url("../img/exclamation-circle-fill.svg");
+    background-color: #ffdcd3;
+    border-left: #e83f3f 3px solid;
+}
+
+blockquote.bl > p {
+    margin-left: 1em;
+}
+
+blockquote.bl > p:last-child {
+    padding-bottom: 1em;
+    margin-bottom: 0;
+}
+
+
+blockquote.warning {
+    border-left: 0;
+    background:  left center no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    color: #000000;
+}
+
+
+.navbar-qs .logo {
+    border: 0;
+    width: 122px;
+    height: 32px;
+    display: inline-block;
+    background: url("../img/logo-white-named.svg") center center no-repeat;
+}
+
+.navbar-qs .search-icon {
+    border: 0;
+    padding-left: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("../img/search-white-2.svg") left center no-repeat;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    border-top: 1px solid black;
+    background-color: lightgray;
+    /* background: url("../img/bg1.jpg") center bottom fixed; */
+}
+
+/* Background */
+.bg-critical {
+    /* background-color: #dc3545 !important; */
+    background-image: linear-gradient(to bottom,#f2dede 0,#ebcccc 100%);
+}
+
+.bg-major {
+    background-image: linear-gradient(to bottom,#fcf8e3 0,#faf2cc 100%);
+}
+
+.bg-minor {
+    background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+}
+
+.bg-infocompat {
+    background-image: linear-gradient(to bottom,#d9edf7 0,#c4e3f3 100%);
+}
+
+.rtext {
+    text-align: right;
+}
+
+.compat-mod {
+    margin-bottom: 15px;
+}
+
+.compat-card {
+    padding: 10px 15px;
+}
+
+.compat-card h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.compat-card p {
+    margin: 0;
+}
+
+/* Commands */
+
+.cmd {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.cmd > .collapseablepanel {
+    border-top: 1px solid black;
+    display: none;
+    background: #cff8ff;
+}
+
+.command > .c {
+
+}
+
+.cmd > .command {
+    cursor: pointer;
+    background: #5c93e2;
+    color: white;
+    padding: 0 5px;
+    line-height: 32px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.cmd .int {
+    padding: 2px 5px;
+}
+
+.cmd > .std {
+
+}
+
+.std span {
+    margin-right: 5px;
+}
+
+div.command {
+    width: 100%;
+    border: black 1pt solid;
+    margin-bottom: 5px;
+    background: white;
+}
+
+div.command > div {
+    padding: 3px 5px;
+}
+
+div.command > .command-head {
+    font-size: x-large;
+    border-bottom: black 1pt solid;
+    background: aliceblue;
+}
+
+.command-head > a {
+    text-underline: none;
+    color: black;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+div.command > .command-description {
+    font-size: large;
+    font-weight: 600;
+}
+
+div.command > .command-head > .command-module {
+    font-size: medium;
+    float: right;
+    vertical-align: bottom;
+}
+
+div.command-usage > p {
+    margin-bottom: 3px;
+}
+
+.toc-wrap {
+    /* display: flow; */
+    top: 50px;
+    position: sticky;
+    margin-left: -15px;
+    padding-left: 15px;
+    border-left: 1px solid #424242;
+    max-height: calc(100vh - 50px - 15px);
+    margin-bottom: 15px;
+}
+
+.toc-wrap-a {
+    display: block !important;
+    overflow-y: auto;
+    /* height: calc(100% - 15px) */
+}
+
+.toc-wrap ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toc-wrap ul ul {
+    list-style-type: none;
+    /*margin: 10px;*/
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.toc-wrap ul li {
+    padding-bottom: 5px;
+}
+
+.permissionblock {
+    display: block;
+    position: relative;
+    line-height: 38px;
+    width:100%;
+    border: 1px solid #dee2e6 !important;
+    padding: 3px;
+    background-color: #f5f5f5;
+}
+
+.permswitch {
+    position: absolute;
+    right: 0;
+    height: 38px;
+    margin:0;
+    top:0;
+}
+
+.toplinesticky {
+    top:0;
+    z-index: 9999999 !important;
+    background-color: #ffffff;
+    opacity: 1;
+    position: sticky;
+}
+
+.permmenu {
+    max-width: 300px;
+}
+
+.permmenu h6 {
+    display: inline-block;
+    white-space: normal;
+    padding: 2px;
+}
+
+.pageheadertop {
+    display: none;
+}
+
+h2.firsth2nomargin {
+    margin-bottom: 0;
+}
+
+.firsth2nomargin h2:first-child {
+    margin-top: 0;
+}
+
+h3.smaller {
+    font-size: 24px;
+}
+
+/* Tutorials */
+
+.tutorials {
+    margin: 0 0 30px 0;
+}
+
+.tutorials .tutorials-box {
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+}
+
+.tutorials-box a {
+    color: black;
+}
+
+.tutorials .tutorials-box:first-child {
+    border-left: 1px solid black;
+}
+
+.tutorials .tutorials-box:last-child {
+    border-right: 1px solid black;
+}
+
+.tutorials .tutorials-box.active-step {
+    color: white;
+    background: url("../img/tut-in.svg") left -1px center black no-repeat;
+    background-size: contain;
+    border-left: 1px solid white;
+}
+
+.tutorials .tutorials-box.active-step + .tutorials-box {
+    background: url("../img/tut-out.svg") left -1px center white no-repeat;
+    background-size: contain;
+}
+
+.tutorials .tutorials-box.active-step a {
+    color: white;
+}
+
+.next-tut {
+    text-align: right;
+}
+
+.blocklink {
+    display: inline-block;
+}
+
+.link-lead {
+    /* font-weight: bold;*/
+    font-size: larger;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a > .link-lead {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+hr.black {
+    border-color: black;
+}
+
+.beta {
+    min-height: 30px;
+    background: #87f8b8;
+}
+
+.beta .container div {
+    padding-left: 20px;
+    background: url("../img/chat-bubble.svg") left center no-repeat;
+}
+
+.additionalcontainerclass h3 {
+    font-size: 24px;
+}
+
+.search-result-header {
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+
+.search-result-header > small {
+    color: #666666;
+}
+
+/* Search */
+
+#searchoverlay {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1000000000;
+    display: none;
+    background: rgba(100, 100, 100, 0.8);
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+}
+
+#search-result-container {
+    display: none;
+}
+
+#search-tab-content {
+    padding-top: 5px;
+}
+
+#searchcontainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: white;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.search-result-url > a {
+    color: darkgreen;
+}
+
+.command-search p {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.search-result-item.command-search {
+    padding-bottom: 10px;
+}
+
+.titlelogo {
+    background: url("../img/nucleus-logo.svg") center left no-repeat;
+    min-height: 250px;
+}
+
+.title-heading {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.title-subheading {
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+}
+
+.how-to img {
+    max-width: 100%;
+    border: 0;
+}
